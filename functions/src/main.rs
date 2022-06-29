@@ -7,6 +7,9 @@ fn main() {
     println!("The value of x is: {}", x);
 }
 
+/*
+it doesn't matter where you put the functions in this file
+*/
 fn print_labeled_measurement(value: i32, unit_label: char) {
     println!("The measurement is: {}{}", value, unit_label);
 }
