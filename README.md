@@ -1,6 +1,9 @@
 # Rust by Examples
 
 To run the programs:
-- `make compile file=FILE_NAME`
+1. if `Cargo.toml` is inside a directory, run `cargo build`, `cargo run`, etc.
+2. otherwise, run `make compile file=FILE_NAME`
 
-reference: https://doc.rust-lang.org/rust-by-example/
+References
+1. https://doc.rust-lang.org/book/
+2. https://doc.rust-lang.org/rust-by-example/
