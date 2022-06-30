@@ -20,7 +20,8 @@ Folder Structure
 │   ├── 6_slices
 │   ├── 7_structs
 │   ├── 8_enums
-│   └── 9_matches
+│   ├── 9_matches
+│   └── 10_module_system
 └── projects
     ├── guessing_game
     └── rectangles
@@ -36,3 +37,4 @@ References
 7. [Rustdoc Book](https://doc.rust-lang.org/rustdoc/index.html)
 8. [Rustc Book](https://doc.rust-lang.org/rustc/index.html)
 9. [Webassembly Book](https://rustwasm.github.io/docs/book/)
+10. [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
