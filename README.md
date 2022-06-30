@@ -3,7 +3,7 @@
 To run the programs:
 - in each directory, run `cargo build`, `cargo run`, etc.
 
-Project Structure
+Folder Structure
 
 ```
 .
@@ -20,7 +20,8 @@ Project Structure
 │   ├── 6_slices
 │   └── 7_structs
 └── projects
-    └── guessing_game
+    ├── guessing_game
+    └── rectangles
 ```
 
 References
