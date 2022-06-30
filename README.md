@@ -18,7 +18,8 @@ Folder Structure
 │   ├── 4_ownership
 │   ├── 5_references
 │   ├── 6_slices
-│   └── 7_structs
+│   ├── 7_structs
+│   └── 8_enums
 └── projects
     ├── guessing_game
     └── rectangles
