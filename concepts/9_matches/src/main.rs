@@ -61,4 +61,21 @@ fn main() {
         7 => remove_fancy_hat(),
         other => move_player(other), // or _ => reroll(), or _ => (),
     }
+
+    // if let syntax lets you combine if and let into a less verbose way to
+    // handle values that match one pattern while ignoring the rest.
+    // However, you lose the exhaustive checking that match enforces. 
+    let config_max = Some(3u8);
+    if let Some(max) = config_max {
+        println!("The maximum is configured to be {}", max);
+    }
+
+    let mut count = 0;
+    let coin2 = Coin::Penny;
+    if let Coin::Quarter(state) = coin2 {
+        println!("State quarter from {:?}!", state);
+    } else {
+        count += 1;
+    }
+    println!("count: {}", count);
 }
