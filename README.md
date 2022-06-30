@@ -17,7 +17,8 @@ Project Structure
 │   ├── 3_control_flow
 │   ├── 4_ownership
 │   ├── 5_references
-│   └── 6_slices
+│   ├── 6_slices
+│   └── 7_structs
 └── projects
     └── guessing_game
 ```
